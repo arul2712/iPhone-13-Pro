@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: #333333;
+    height: 45px;
+}
+nav{
+    margin: 0 14% 0 14%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+}
+nav h6{
+    color: #D6D6D6;
+    font-size: 13px;
+    opacity: 80%;
+    cursor: pointer;
+}
+nav h6:hover{
+    opacity: 100%;
+}
+.fa-apple{
+    width: 25px;
+    height: 25px;
+    color: #D6D6D6;
+    cursor: pointer;
+}
+.fa-magnifying-glass:hover,.fa-bag-shopping:hover,.fa-apple:hover{
+    color: white;
+}
+.fa-magnifying-glass,.fa-bag-shopping{
+    color:#D6D6D6;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.buy{
+    border-radius: 20px;
+    height: 25px;
+    width:50px;
+    font-size: 12px;
+    background-color: #0071E3;
+    border: 0px ;
+    color: white;
+    margin-top: 1%;
+}
+.nav{
+    height: 33px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    color: rgb(74, 74, 74,0.8);
+}
+.title{
+    text-align:left;
+}
+.sep{
+    margin: 0 14% 0 14%;
+    padding-top: 1%;
+}
+.menu h5{
+    font-size: 12px;
+    padding: 2%;
+}
+.container{
+    margin-top: 8%;
+    text-align: center;
+}
+.container h5{
+    font-size: 25px;
+    font-weight: 650;
+}
+.container h1{
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.container img{
+    margin-top: 0;
+    width: 110%;
+}
